@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/videoplayer.css">
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
@@ -18,12 +19,14 @@
 </head>
 
 <body>
+    <!-- landing section -->
     <section>
         <div class="full-height">
            <div class="pin-scene">
             <div class="title-main">
-                <p class="top-titles">Parallax || Perspective</p>
-                <h1>integrated</h1>
+                <p class="top-titles">MM || Twilight</p>
+                <h1>Matt Mercer</h1>
+                <h2 class="titles">Director.Writer.Actor</h2>
                 <div class="scrolldown">
                     <div class="scroll-line" style="color: #f8f8f8;">
                         <h6>Scroll →</h6> </div>
@@ -35,20 +38,47 @@
         </div>
     </section>
     
-    
+    <!-- About Section -->
     <section> 
         <div class="section2 full-height">
             <div class="s-inner">
-                <img class="brain" src="img/brain.png" alt="My huge massive tiny small brain">
+                <img class="brain" src="img/brain.png" alt="MM || Twilight">
                 <p class="top-titles">MM</p>
-                <h2>More info to be included here.</p>
+                <h2>🚧 Coming Soon 🚧</p>
+                
             </div>
         </div>
     
     </section>
+
+    <!-- Video Player Section -->
+    <section>
+        <div class="section3 full-height">
+                <div class="player">
+                    <video class="player__video viewer" src="652333414.mp4"></video>
+                
+                    <div class="player__controls">
+                        <div class="progress">
+                            <div class="progress__filled"></div>
+                        </div>
+                        <button class="player__button toggle" title="Toggle Play">►</button>
+                        <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
+                        <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2" step="0.1" value="1">
+                        <button data-skip="-10" class="player__button">« 10s</button>
+                        <button data-skip="25" class="player__button">25s »</button>
+                    </div>
+                </div>
+            <!-- <div class="bg-image-player"></div> -->
+        </div>
+    </section>
+
+    <!-- Images Section -->
+
+    <!-- Contact /Footer Section -->
     
     
     <script src="js/main.js"></script>
+    <script src="js/videoplayer.js"></script>
 </body>
 
 </html>
