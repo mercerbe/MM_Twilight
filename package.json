@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/mercerbe/MM_Twilight#readme",
   "dependencies": {
-    "gl-transitions": "^1.43.0"
   }
 }

@@ -161,16 +161,16 @@ $(function () {
 
 
 //instafeed
-var myFeed = new Instafeed({
-    get: 'user',
-    userId: '1256541053',
-    clientId: '1e9a77d650c149658deed38a4b379a0f',
-    accessToken: '1256541053.1e9a77d.dcb9b0d341ab458dbe5c6d10311af75f',
-    resolution: 'thumbnail',
-    template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
-    sortBy: 'most-recent',
-    limit: 8,
-    links: false
-});
-myFeed.run();
+// var myFeed = new Instafeed({
+//     get: 'user',
+//     userId: '1256541053',
+//     clientId: '1e9a77d650c149658deed38a4b379a0f',
+//     accessToken: '1256541053.1e9a77d.dcb9b0d341ab458dbe5c6d10311af75f',
+//     resolution: 'thumbnail',
+//     template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+//     sortBy: 'most-recent',
+//     limit: 8,
+//     links: false
+// });
+// myFeed.run();
 
