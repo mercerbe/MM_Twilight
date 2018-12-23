@@ -1,0 +1,22 @@
+{
+  "name": "mm_twilight",
+  "version": "1.0.0",
+  "description": "Matt Mercer Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercerbe/MM_Twilight.git"
+  },
+  "author": "Ben Mercer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercerbe/MM_Twilight/issues"
+  },
+  "homepage": "https://github.com/mercerbe/MM_Twilight#readme",
+  "dependencies": {
+    "gl-transitions": "^1.43.0"
+  }
+}
